@@ -1,0 +1,57 @@
+main{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40%;
+    height: 60%;
+    margin-top: 6%;
+    margin-left: 10%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+    backdrop-filter: blur(1px);
+    float: left;
+}
+
+.up{
+    width: 100%;
+    height: 85%;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.rigth{
+    width: 30%;
+    height: 100%;
+    background-image: url('../../../assets/img/cartel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 2%;
+    animation-name: letrero;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    float: left;
+}
+
+@keyframes letrero {
+    0% { transform: rotateX(-10deg); transform: rotateY(-10deg);}
+    10% {transform: rotateX(-20deg); transform: rotateY(-20deg);}
+    20% {transform: rotateX(-30deg); transform: rotateY(-30deg);}
+    30% {transform: rotateX(-40deg); transform: rotateY(-40deg);}
+    40% {transform: rotateX(-50deg); transform: rotateY(-50deg);}
+    50% {transform: rotateX(-60deg); transform: rotateY(-60deg);}
+    60% {transform: rotateX(-50deg); transform: rotateY(-50deg);}
+    70% {transform: rotateX(-40deg); transform: rotateY(-40deg);}
+    80% {transform: rotateX(-30deg); transform: rotateY(-30deg);}
+    90% {transform: rotateX(-20deg); transform: rotateY(-20deg);}
+    100% {transform: rotateX(-10deg); transform: rotateY(-10deg);}
+
+}
+
+.down{
+    width: 100%;
+    height: 15%;
+}

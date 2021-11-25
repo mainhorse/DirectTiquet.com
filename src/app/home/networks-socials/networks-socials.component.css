@@ -1,0 +1,53 @@
+.left{
+    background-color: rgba(255,255,255,0.6);
+    width: 28%;
+    height: 75%;
+    margin-top: 2%;
+    margin-left: 15%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-self: center;
+    backdrop-filter: blur(12px);
+    float: left;
+}
+
+.text{
+    background-color: rgba(255,255,255,1);
+    width: 80%;
+    height: 70%;
+    font-size: 1.6vw;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    border-radius: 10%;
+}
+
+footer{
+    width: 50%;
+    height: 8%;
+    margin-top: 5%;
+    margin-left: 40%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+img{
+    width: 80%;
+}
