@@ -1,0 +1,77 @@
+main{
+    background:linear-gradient(20deg,rgba(255, 255, 255, 1),rgba(15, 99, 71, 0.9)) ;
+    width: 80%;
+    height: 72%;
+    margin: 0% 10%;
+    margin-top: 2%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    background-color: white;
+    width: 35%;
+    height: 80%;
+    border-radius: 12px;  
+}
+
+nav{
+    background-color: rgba(20, 12, 3, 0.8);
+    width: 95%;
+    height: 12%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opciones{
+    background-color: rgba(20, 12, 3, 0.8);;
+    width: 90%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+ul{
+    width: 100%;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+
+
+.right{
+    background-color: white;
+    width: 35%;
+    height: 80%;
+    border-radius: 12px;    
+}
+
+h1{
+    text-align: center;
+    margin-top: 12%;
+}
+
+iframe{
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    border-radius: 12px;
+}
+
+

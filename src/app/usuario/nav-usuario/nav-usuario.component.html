@@ -1,0 +1,28 @@
+
+<nav>
+    <button class="data" title="Datos" (click)="datos()"></button>
+    <p>{{sesionUsuario.correo}}</p>
+    <div class="searchEvent">
+        <form class="searchForm">
+            <select class="selectTypeEvent">
+                <option name="gastronomia">Gastronomia</option>
+                <option name="cultura">Cultura</option>
+                <option name="aventura">Aventura</option>
+                <option name="entretenimiento">Entretenimiento</option>
+                <option name="hospedaje">Hospedaje</option>
+            </select>
+            <input placeholder="Ingrese su busqueda" class="searchInput" >
+            <button class="btnSearch"></button>
+        </form>
+    </div>
+    <div class="dataUser" id="dataUser">
+        <img src={{imgUser}} alt="user" >
+        <form #formActualizacion (ngSubmit)="actualizarDatos()" class="formData">
+            <input placeholder="nombre" name="nombre" #nombre="ngModel" [(ngModel)] = "sesionUsuario.nombre">
+            <input placeholder="ciudad" name="ciudad" #ciudad="ngModel" [(ngModel)] = "sesionUsuario.ciudad">
+            <input placeholder="contraseña" name="contrasena" #contrasena="ngModel" [(ngModel)] = "sesionUsuario.contrasena">
+            <button type="submit">Actualizar</button>
+        </form>
+    </div>
+    <a routerLink="/" (click)="cerrarSesion()">Cerrar</a>
+</nav>

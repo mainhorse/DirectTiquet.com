@@ -28,12 +28,29 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: 2%;
+    margin-left: 12%;
     animation-name: letrero;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     float: left;
+}
+
+button{
+    background-color: rgba(247, 0, 0, 0.5);
+    width: 100%;
+    height: 25%;
+    margin-top: -40%;
+    border-radius: 12px;
+    color: white;
+    font-size: 2.2vw;
+    cursor: pointer;
+    border: 2px solid black;
+    
 }
 
 @keyframes letrero {

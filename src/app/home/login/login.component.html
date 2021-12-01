@@ -1,0 +1,12 @@
+
+<main>
+    <form #formIngreso="ngForm" (ngSubmit)="validarUsuario()">
+        <h1>Ingreso</h1>
+        <p routerLink="/">X</p>
+        <input placeholder="correo" name="correo" #correo="ngModel" [(ngModel)]="usuarioLogin.correo">
+        <input placeholder="contraseña" name="contrasena" #contrasena="ngModel" [(ngModel)]="usuarioLogin.contrasena">
+        <button>Ingresar</button>
+    </form>
+
+    <a>Recuperar mi contraseña</a>
+</main>

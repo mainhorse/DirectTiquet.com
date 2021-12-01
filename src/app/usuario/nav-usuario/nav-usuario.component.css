@@ -1,0 +1,179 @@
+nav{
+    position:sticky;
+    background-color: rgba(15, 121, 86, 0.9);
+    width: 90%;
+    margin: 0% 5%;
+    top: 10px;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    border-radius: 12px;
+    z-index: 2000;
+    
+}
+
+.data{
+    width: 5%;
+    height: 80%;
+    background-image: url('../../../assets/img/morrocoi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+p{
+    color: white;
+    font-size: 1.8vw;
+}
+
+.searchEvent{
+    background-color:transparent;
+    width: 50%;
+    height: 80%;
+    border-radius: 12px;
+}
+
+.searchForm{
+    background-color: rgba(255,255,255,0.2);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selectTypeEvent{
+    background-color: rgba(255, 255, 255,1);
+    width: 30%;
+    height: 70%;
+    border-radius: 12px;
+
+}
+
+.searchInput{
+    background-color: #FFF;
+    width: 52%;
+    height: 16%;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+.btnSearch{
+    background-color: rgba(255, 255, 255,1);
+    background-image: url('../../../assets/img/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    width:8%;
+    height: 80%;
+    border-radius: 12px;
+    border: none;
+}
+
+
+.dataUser{
+    background-color: #FFF;
+    position: fixed;
+    width: 15%;
+    height: 40%;
+    margin-right: 80vw;
+    margin-top: 52vh;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    transition: .5s;
+    border-radius: 2px;
+    z-index: 3000;
+}
+
+.formData{
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+
+.dataUser img{
+    width: 30%;
+    height: 25%;
+    margin: 5% 35%;
+    float: left;
+}
+
+.formData input{
+    background-color: #FFF;
+    width: 90%;
+    height: 12%;
+    text-align: center;
+    color: black;
+    font-size: 1.2vw;
+    padding: 2%;
+    margin: 1% 5%;
+}
+
+::placeholder{
+    color:black;
+}
+
+.formData input[type="file"]{
+    color: white;
+    width: 90%;
+    height: 12%;
+    margin-left: 10%;
+    font-size: 1vw;
+}
+
+label{
+    margin-left: 20%;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+
+
+.formData button{
+    background-color: rgb(207, 76, 76);
+    width: 60%;
+    margin: 0% 20%;
+    height: 18%;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 1.6vw;
+    margin-top: 2%;
+}
+
+form{
+    background-color: #FFF;
+    width: 50%;
+    height: 60%;
+    float: left;
+}
+
+select{
+    width: 30%;
+    height: 100%;
+    border: none;
+    font-size: 1.4vw;
+    float: left;
+}
+
+input{
+    width:61%;
+    height: 100%;
+    font-size: 1.6vw;
+    padding: 20px;
+    margin-left: 2px;
+    border: none;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6vw;
+}

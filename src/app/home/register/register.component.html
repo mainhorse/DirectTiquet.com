@@ -1,0 +1,17 @@
+<main>
+    <h1>Registro</h1>
+    <p routerLink="/">X</p>
+    <form #formularioRegistro="ngForm" (ngSubmit)="registrarUsuario()">        
+        <input placeholder="correo" name="correo" #correo="ngModel" [(ngModel)]="usuarioRegistro.correo" required>
+        <input placeholder="contraseña" name="contrasena" #contrasena="ngModel" [(ngModel)] = "usuarioRegistro.contrasena" aria-required="">
+        <select name="tipoUsuario" #tipoUsuario="ngModel" [(ngModel)] = "usuarioRegistro.tipoUsuario" required>
+            <option name="usuario">Usuario</option>
+            <option name="gastronomia">Gastronomia</option>
+            <option name="cultura">Cultura</option>
+            <option name="aventura">Aventura</option>
+            <option name="entretenimiento">Entretenimiento</option>
+            <option name="hospedaje">Hospedaje</option>
+        </select>
+        <button>Registrar</button>
+    </form>
+</main>
